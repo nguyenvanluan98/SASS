@@ -1,0 +1,56 @@
+// $primary: rgba(166, 250, 182, 0);
+$color: rgba(243, 230, 230, 0);
+$marfin: 2px 3px 4px 5px;
+
+body {
+  background: yellowgreen;
+}
+p, h1, h2 {
+color: $color;
+}
+.test {
+    color: $color;
+    margin: $marfin;
+}
+@mixin test {
+    color: aqua;
+    font-size: 30px;
+    margin: 20px;
+    border-radius: 5px 0;
+}
+.top {
+    background: rgb(219, 152, 28);
+    .top__logo{
+        color: white;
+        .top__logo__text{
+            font-size: 60px;
+        }
+    }
+    .top__benner{
+        @include test;
+        }
+}
+.menu{
+@include test();
+
+.top {
+    background-color: blueviolet;
+    &__logo{
+        font-size: 50px;
+        &__text{
+            color: blac;
+        }
+    }
+}
+}
+.example {
+    color: blue;
+    font-size: 100px;
+}
+.top {
+    @extend .example;
+    background: blueviolet;
+    margin: 10px;
+}
+@import 'header';
+

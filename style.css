@@ -1,0 +1,60 @@
+body {
+  background: yellowgreen;
+}
+
+p, h1, h2 {
+  color: rgba(243, 230, 230, 0);
+}
+
+.test {
+  color: rgba(243, 230, 230, 0);
+  margin: 2px 3px 4px 5px;
+}
+
+.top {
+  background: #db981c;
+}
+.top .top__logo {
+  color: white;
+}
+.top .top__logo .top__logo__text {
+  font-size: 60px;
+}
+.top .top__benner {
+  color: aqua;
+  font-size: 30px;
+  margin: 20px;
+  border-radius: 5px 0;
+}
+
+.menu {
+  color: aqua;
+  font-size: 30px;
+  margin: 20px;
+  border-radius: 5px 0;
+}
+.menu .top {
+  background-color: blueviolet;
+}
+.menu .top__logo {
+  font-size: 50px;
+}
+.menu .top__logo__text {
+  color: blac;
+}
+
+.example, .top {
+  color: blue;
+  font-size: 100px;
+}
+
+.top {
+  background: blueviolet;
+  margin: 10px;
+}
+
+.top {
+  padding: 15px;
+}
+
+/*# sourceMappingURL=style.css.map */
